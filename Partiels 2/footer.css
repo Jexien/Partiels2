@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+footer {
+    background-color: #8338EC;
+        font-family: noka, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+footer p {
+    color: white;
+    margin-left: 10px;
+    margin: 0;
+}
+
+.footbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.coordo, .nav {
+    display: flex;
+    flex-direction: column; 
+}
+
+.coordo {
+    justify-content: left; 
+}
+
+.coordo h3{
+    justify-content: left; 
+    color: black;
+}
+
+.nav {
+    display: flex;
+    justify-content: right; 
+    padding: 0px;
+    margin: none;
+    color: white;
+}
+
+.navtitle{
+    color: black;
+}
+
+.bas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.left{
+    flex: 1;
+}
+
+.right {
+    flex: 1.5;
+    text-align: left;
+}
+
+.copy {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo_blanc {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,57 @@
+@font-face{
+    font-family: "NokaaTrial";
+    src: url("./font/NokaTrial-Semibold-BF63bccdec16a7a.otf") format("truetype");
+}
+ 
+ 
+body{
+    margin: 0;
+    color: #fff;
+    background-color: #000;
+   
+}
+ 
+ 
+.conteter1{
+    height: 50px;
+    text-align: right;
+    width: 1175px;
+    background : linear-gradient(#000A, #0000);
+ 
+}
+.head{
+    margin: 10px ;  
+}
+.head a {
+    color: #fff; /* Couleur blanche */
+    text-decoration: none; /* Pas de soulignement */
+}
+.head a:hover {
+    color: #8338EC; /* Couleur violette au survol */
+}
+ 
+.logo{
+    height: 80px;
+    padding: 10px 30px;
+}
+.tete{
+    font-family: RobotoR;
+    float: center;
+ 
+}
+ 
+.tete ul{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 20px;
+    float: right;
+    padding-right: 30px;
+ 
+}
+.tete ul>li{
+   
+    float: right;
+    padding: 0px 10px;
+    font-family: NokaaTrial;
+    font-size: 20px;
+}
